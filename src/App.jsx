@@ -92,7 +92,7 @@ function Nav() {
         <a href="#contact">
           contact
         </a>
-        <a href="/public/AkankshaMishra_Resume.pdf" target="_blank" rel="noreferrer">resume</a>
+        <a href="/AkankshaMishra_Resume.pdf" target="_blank" rel="noreferrer">resume</a>
       </nav>
     </header>
   );
@@ -113,10 +113,10 @@ function Hero() {
             Software engineer who designs and scales high-throughput distributed backend systems — event-driven pipelines, microservice architectures, membership platforms, and services that hold up during peak sale traffic. Previously SDE-1 at Flipkart.
           </p>
           <div className="hero-actions">
-            <a href="/public/AkankshaMishra_Resume.pdf" download="Akanksha_Mishra_Resume.pdf" className="btn-resume">
+            <a href="/AkankshaMishra_Resume.pdf" download="Akanksha_Mishra_Resume.pdf" className="btn-resume">
               ↓ Download Resume
             </a>
-            <a href="/public/AkankshaMishra_Resume.pdf" target="_blank" rel="noreferrer" className="btn-resume-ghost">
+            <a href="/AkankshaMishra_Resume.pdf" target="_blank" rel="noreferrer" className="btn-resume-ghost">
               View in browser ↗
             </a>
           </div>
@@ -155,7 +155,7 @@ const EXPERIENCE = [
   {
     id: "flipkart",
     company: "Flipkart",
-    logo: "https://images.seeklogo.com/logo-png/31/1/flipkart-logo-png_seeklogo-318406.png",
+    logo: "/flipkartLogo.png",
     role: "Software Development Engineer — I",
     location: "Bangalore, India",
     dates: "Jul 2024 — Apr 2026",
@@ -210,7 +210,7 @@ const EXPERIENCE = [
   {
     id: "microsoft",
     company: "Microsoft",
-    logo: "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+    logo: "/microsoftLogo.png",
     role: "Software Engineer Intern",
     location: "Hyderabad, India",
     dates: "Jul 2023 — Aug 2023",
@@ -386,7 +386,7 @@ function Education() {
       <div className="edu">
         <div className="edu-left">
           <span className="xp-logo-wrap">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUA4imiQCEBC1eJmwB-Rtt5zInqpIazo6cfiV-fq52AQ&s=10" alt="" className="xp-logo" />
+            <img src="/kietLogo.png" alt="" className="xp-logo" />
           </span>
           <div>
             <h3>KIET Group of Institutions, Delhi-NCR</h3>
@@ -475,7 +475,7 @@ function Contact() {
       </p>
       <a className="contact-email" href={LINKS.email}>
         <img
-          src="https://commons.wikimedia.org/wiki/Special:FilePath/Gmail_icon_(2020).svg"
+          src="/gmail.png"
           alt=""
           className="email-icon"
         />
@@ -484,7 +484,7 @@ function Contact() {
       <div className="contact-links">
         <a href={LINKS.linkedin} target="_blank" rel="noreferrer">
           <img
-            src="https://commons.wikimedia.org/wiki/Special:FilePath/LinkedIn_icon.svg"
+            src="/linkedin.png"
             alt=""
             className="link-icon"
           />
@@ -492,7 +492,7 @@ function Contact() {
         </a>
         <a href={LINKS.github} target="_blank" rel="noreferrer">
           <img
-            src="https://commons.wikimedia.org/wiki/Special:FilePath/Octicons-mark-github.svg"
+            src="/githubLogo.png"
             alt=""
             className="link-icon github-icon"
           />
@@ -500,7 +500,7 @@ function Contact() {
         </a>
         <a href={LINKS.leetcode} target="_blank" rel="noreferrer">
           <img
-            src="https://commons.wikimedia.org/wiki/Special:FilePath/LeetCode_Logo_1.png"
+            src="/leetcodeLogo.png"
             alt=""
             className="link-icon"
           />
